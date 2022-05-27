@@ -13,7 +13,7 @@ chart:
   version: 0.36.0
 values:
   containerPort: 9000
-  gitRepository: gimlet-io/test-app
+  gitRepository: laszlocph/test-app
   gitSha: '{{ .GITHUB_SHA }}'
   image:
     repository: ghcr.io/laszlocph/test-app
