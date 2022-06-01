@@ -18,7 +18,6 @@ values:
       kubernetes.io/ingress.class: nginx
     host: test-app-meetup.meetup.turbopizza.net
     tlsEnabled: true
-  replicas: 10
   vars:
     DUMMY: just messing around
 strategicMergePatches: ""
