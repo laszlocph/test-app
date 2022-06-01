@@ -18,7 +18,7 @@ values:
       kubernetes.io/ingress.class: nginx
     host: test-app.demo.turbopizza.net
     tlsEnabled: true
-  replicas: 5
+  replicas: 3
 strategicMergePatches: ""
 json6902Patches: []
 manifests: ""
