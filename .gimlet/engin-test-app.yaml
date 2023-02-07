@@ -1,0 +1,15 @@
+app: test-app
+env: engin
+namespace: default
+chart:
+  repository: https://chart.onechart.dev
+  name: onechart
+  version: 0.41.0
+values:
+  gitRepository: laszlocph/test-app
+  gitSha: '{{ .SHA }}'
+  vars:
+    DUMMY: myvalue
+strategicMergePatches: ""
+json6902Patches: []
+manifests: ""
