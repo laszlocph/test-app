@@ -1,0 +1,13 @@
+app: test-app
+env: test206c
+namespace: default
+chart:
+  repository: https://chart.onechart.dev
+  name: onechart
+  version: 0.41.0
+values:
+  gitRepository: laszlocph/test-app
+  gitSha: '{{ .SHA }}'
+strategicMergePatches: ""
+json6902Patches: []
+manifests: ""
