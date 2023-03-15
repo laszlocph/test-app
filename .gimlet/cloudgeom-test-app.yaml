@@ -9,8 +9,6 @@ values:
   gitRepository: laszlocph/test-app
   gitSha: '{{ .SHA }}'
   replicas: 3
-  sealedSecrets:
-    TOKEN: ""
   vars:
     DUMMY: myvar
 strategicMergePatches: ""
