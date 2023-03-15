@@ -1,0 +1,18 @@
+app: test-app
+env: cloudgeom
+namespace: default
+chart:
+  repository: https://chart.onechart.dev
+  name: onechart
+  version: 0.41.0
+values:
+  gitRepository: laszlocph/test-app
+  gitSha: '{{ .SHA }}'
+  replicas: 3
+  sealedSecrets:
+    TOKEN: ""
+  vars:
+    DUMMY: myvar
+strategicMergePatches: ""
+json6902Patches: []
+manifests: ""
