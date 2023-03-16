@@ -1,0 +1,16 @@
+app: test-app
+env: kostis
+namespace: default
+chart:
+  repository: https://chart.onechart.dev
+  name: onechart
+  version: 0.41.0
+values:
+  gitRepository: laszlocph/test-app
+  gitSha: '{{ .SHA }}'
+  replicas: 4
+  vars:
+    DUMMY: dummy value
+strategicMergePatches: ""
+json6902Patches: []
+manifests: ""
