@@ -1,0 +1,16 @@
+app: test-app
+env: crst-staging
+namespace: default
+chart:
+  repository: https://chart.onechart.dev
+  name: onechart
+  version: 0.41.0
+values:
+  gitRepository: laszlocph/test-app
+  gitSha: '{{ .SHA }}'
+  replicas: 2
+  vars:
+    CRST: hello world
+strategicMergePatches: ""
+json6902Patches: []
+manifests: ""
