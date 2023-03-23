@@ -1,6 +1,8 @@
 app: test-app-2
 env: rc25-1
 namespace: default
+deploy:
+  event: push
 chart:
   repository: https://chart.onechart.dev
   name: onechart
