@@ -1,0 +1,17 @@
+app: test-app
+env: demo4-staging
+namespace: default
+chart:
+  repository: https://chart.onechart.dev
+  name: onechart
+  version: 0.41.0
+values:
+  gitRepository: laszlocph/test-app
+  gitSha: '{{ .SHA }}'
+  ingress:
+    host: test-app.demo4-staging.laszlo.cloud
+    tlsEnabled: true
+  replicas: 2
+strategicMergePatches: ""
+json6902Patches: []
+manifests: ""
