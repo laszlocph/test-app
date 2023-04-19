@@ -9,7 +9,7 @@ values:
   gitRepository: laszlocph/test-app
   gitSha: '{{ .SHA }}'
   ingress:
-    host: test-app.demo4-staging.laszlo.cloud
+    host: test-app5.demo4-staging.laszlo.cloud
     tlsEnabled: true
   replicas: 4
   vars:
