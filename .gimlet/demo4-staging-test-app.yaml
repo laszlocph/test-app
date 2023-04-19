@@ -11,7 +11,7 @@ values:
   ingress:
     host: test-app.demo4-staging.laszlo.cloud
     tlsEnabled: true
-  replicas: 3
+  replicas: 4
   vars:
     MY_VAR: Hello Kubecon
 strategicMergePatches: ""
