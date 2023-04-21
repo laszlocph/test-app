@@ -8,7 +8,10 @@ chart:
 values:
   gitRepository: laszlocph/test-app
   gitSha: '{{ .SHA }}'
-  replicas: 2
+  ingress:
+    host: blabla
+    tlsEnabled: true
+  replicas: 4
 strategicMergePatches: ""
 json6902Patches: []
 manifests: ""
