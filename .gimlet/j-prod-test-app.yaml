@@ -1,0 +1,15 @@
+app: test-app
+env: j-prod
+namespace: default
+chart:
+  repository: https://chart.onechart.dev
+  name: onechart
+  version: 0.41.0
+values:
+  gitRepository: laszlocph/test-app
+  gitSha: '{{ .SHA }}'
+  vars:
+    MY_VAR: John
+strategicMergePatches: ""
+json6902Patches: []
+manifests: ""
