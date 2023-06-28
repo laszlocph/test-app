@@ -8,4 +8,4 @@ chart:
 values:
   gitRepository: laszlocph/test-app
   gitSha: '{{ .SHA }}'
-  replicas: 2
+  replicas: 4
