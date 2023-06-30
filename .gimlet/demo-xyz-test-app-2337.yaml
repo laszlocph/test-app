@@ -1,12 +1,13 @@
 app: test-app-2337
 env: demo-xyz
 namespace: default
-tenant:
-  name: second-tenant
 chart:
   repository: https://chart.onechart.dev
   name: onechart
   version: 0.47.0
+tenant:
+  name: second-tenant
 values:
   gitRepository: laszlocph/test-app
   gitSha: '{{ .SHA }}'
+  replicas: 2
