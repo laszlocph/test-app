@@ -1,6 +1,8 @@
 app: test-app
 env: demo-xyz
 namespace: default
+tenant:
+  name: first-tenant
 chart:
   repository: https://chart.onechart.dev
   name: onechart
